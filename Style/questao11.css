@@ -1,0 +1,30 @@
+body,html{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dream{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border: 5px solid black;
+    animation: pulse 3s linear infinite ;
+}
+
+@keyframes pulse{ 
+    0%{
+        transform: rotate(0deg);
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5) rotate(180deg);
+        
+    }
+    100%{
+        transform:  scale(1) rotate(360deg);
+        
+    }
+
+}

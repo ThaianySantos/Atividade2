@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.peace{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    border: 1px solid purple;
+   
+  }
+  
+    .peace:hover{
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;
+    border-radius: 0%;
+  }
+  
+  
+
+
+    

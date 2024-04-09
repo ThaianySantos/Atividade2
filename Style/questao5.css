@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.move {
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate( -50%,-50%) rotate(45deg);
+    animation: move 3s infinite;
+}
+
+
+@keyframes move {
+    0% {
+        transform: translate(-50%,-50%) rotate(45deg);
+    }
+    100% {
+
+        transform: translate(-50%,-50%) rotate(405deg);
+
+}
+}
+   
+    

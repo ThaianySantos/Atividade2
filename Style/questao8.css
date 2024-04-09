@@ -1,0 +1,28 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dream {
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    transition: 3s;
+    animation: lost 1s ease 3;
+    border-radius: 200px;
+}
+
+@keyframes lost {
+    0%{
+    transform: scale(0);
+        background-color: greenyellow;
+       
+    }
+    100%{
+        transform: scale(1);
+        background-color: blueviolet;
+    }
+    
+}

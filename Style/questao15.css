@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.peace{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    border: 1px solid purple;
+    animation: mov 3s ease infinite;
+    
+   }
+
+  @keyframes mov {
+    0%{
+        transform: translateX(0%);
+     }
+    12.5%{
+        transform: translateY(50%);
+    }
+    25%{
+        transform:  translateX(75%);
+    }
+    37.5%{
+        transform: translateY(100%);
+    }
+    50%{
+        transform: translateX(125%);
+    }
+    62.5%{
+        transform: translateY(150%);
+    }
+    75%{
+        transform: translateX(175%)
+    }
+    87.5%{
+        transform: translateY(200%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+
+    
+  }

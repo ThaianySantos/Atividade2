@@ -1,0 +1,34 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dream {
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: blue;
+}
+
+.dream:hover {
+    background-color: aquamarine;
+    animation: pulse 3s ease;
+
+}
+
+@keyframes pulse {
+    0% {
+        width: 200px;
+        height: 200px;
+        background-color:  blue;
+    }
+    100% {
+
+        width: 300px;
+        height: 300px;
+
+    }
+    
+}

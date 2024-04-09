@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+img{
+    width: 200px;
+    height: 200px;
+    animation: mov 3s forwards;
+    position: absolute;
+}
+
+@keyframes mov{
+    0%{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    100%{
+        width: 70px;
+        height:  70px;
+        top: 0;
+        left: 0;
+    }
+    
+}
