@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+.ativ{
+    
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+}
+    
+   
+button{
+    width: 300px;
+    height: 50px;
+    color: black;
+    background-color: wheat;
+    margin-bottom: 10px;
+
+}

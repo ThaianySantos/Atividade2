@@ -9,7 +9,7 @@ body{
     background-color: blue;
     width: 200px;
     height: 200px;
-    animation: moviment 2s ease infinite;
+    animation: moviment 2s infinite;
 
 }
 .div2{
@@ -17,7 +17,7 @@ body{
     background-color: red;
     width: 200px;
     height: 200px;
-    animation: moviment 2s ease infinite;
+    animation: moviment 2s infinite 3s;
     
 }
 .div3{
@@ -25,7 +25,7 @@ body{
     background-color: purple;
     width: 200px;
     height: 200px;
-    animation: moviment 2s ease infinite;
+    animation: moviment 2s infinite 6s;
     
 }
 @keyframes moviment {
